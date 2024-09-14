@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../banner/Banner";
-import Row from "../row/Row";
-import requestUrls from "../requests";
+import Banner from "./Banner";
+import Row from "./Row";
+import requestUrls from "./requests";
 
 function TVshows() {
   return (

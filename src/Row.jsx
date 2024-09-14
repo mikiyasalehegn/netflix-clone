@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./row.css";
-import axios from "../axios";
+import axios from "./axios";
 import movieTrailer from "movie-trailer";
-import Viewer from "../viewer";
-import Popup from "../popup/Popup";
+import Viewer from "./viewer";
+import Popup from "./Popup";
 
 const baseUrl = "https://image.tmdb.org/t/p/original";
 

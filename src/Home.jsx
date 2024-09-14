@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from "./banner/Banner";
-import Row from "./row/Row";
+import Banner from "./Banner";
+import Row from "./Row";
 // import Topten from "./topten/Topten";
 import requestUrls from "./requests";
 

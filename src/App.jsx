@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Home from "./Home";
-import Nav from "./nav/Nav";
-import TVshows from "./TV shows/TVshows";
+import Nav from "./Nav";
+import TVshows from "./TVshows";
 import "./row/row.css";
 import "./App.css";
 import "./banner/banner.css";

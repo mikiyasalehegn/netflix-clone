@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./banner.css";
-import requestUrls from "../requests";
-import axios from "../axios";
+import requestUrls from "./requests";
+import axios from "./axios";
 import movieTrailer from "movie-trailer";
-import Popup from "../popup/Popup";
-import Viewer from "../viewer";
+import Popup from "./Popup";
+import Viewer from "./viewer";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 function Banner({ fetchUrl }) {
