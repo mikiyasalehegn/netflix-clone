@@ -1,0 +1,51 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 80px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  background-color: (0, 0, 0, 0.8);
+  pointer-events: auto;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav__logo {
+  /* left: 20px; */
+  width: 80px;
+}
+
+.nav__avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.left {
+  position: fixed;
+  left: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  pointer-events: auto;
+}
+
+.left li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.clicked {
+  color: rgb(135, 8, 8);
+}
