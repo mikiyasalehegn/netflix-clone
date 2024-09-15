@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./nav.css";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 
 function Nav() {
   const [show, handleShow] = useState(false);
@@ -48,6 +50,12 @@ function Nav() {
         </div>
       </div>
       <div className="right">
+        <div className="search">
+          <FaSearch size={20} />
+        </div>
+        <div className="menu-icon">
+          <FaBars size={20} />
+        </div>
         <img
           className="nav__avatar"
           src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"

@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./banner.css";
-import requestUrls from "./requests";
-import axios from "./axios";
+import axios from "../axios";
 import movieTrailer from "movie-trailer";
-import Popup from "./Popup";
-import Viewer from "./viewer";
+import Popup from "../Popup";
+import Viewer from "../viewer";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 function Banner({ fetchUrl }) {
@@ -104,12 +103,20 @@ function Banner({ fetchUrl }) {
           </div>
           {/* Left arrow */}
           <div className="left-arrow">
-            <BsChevronCompactLeft size={40} onClick={prevSlide} />
+            <BsChevronCompactLeft
+              className="arrow"
+              size={40}
+              onClick={prevSlide}
+            />
           </div>
 
           {/* Right arrow */}
           <div className="right-arrow">
-            <BsChevronCompactRight size={40} onClick={nextSlide} />
+            <BsChevronCompactRight
+              className="arrow"
+              size={40}
+              onClick={nextSlide}
+            />
           </div>
         </div>
         {/* <div className="banner__fadeBottom"></div> */}

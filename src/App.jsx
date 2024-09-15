@@ -1,7 +1,6 @@
-import { useState } from "react";
 import Home from "./Home";
-import Nav from "./Nav";
-import TVshows from "./TVshows";
+import Nav from "./nav/Nav";
+import TVshows from "./tv-show/TVshows";
 import "./row/row.css";
 import "./App.css";
 import "./banner/banner.css";
@@ -9,8 +8,6 @@ import "./index.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <Router>
       <div className="App">
