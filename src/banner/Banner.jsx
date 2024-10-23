@@ -3,7 +3,7 @@ import "./banner.css";
 import axios from "../axios";
 import movieTrailer from "movie-trailer";
 import Popup from "../Popup";
-import Viewer from "../Viewer";
+import Viewer from "../Viewer/Viewer";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 function Banner({ fetchUrl }) {
